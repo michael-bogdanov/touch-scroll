@@ -3,11 +3,17 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <script src="jquery.js"></script>
-    <script src="touch-scroll.js"></script>
+    <script src="jquery.mousewheel.js"></script>
+    <script src="jquery-touch-scroll.js"></script>
     <style>
+        body, html {
+            height: 100%;
+            overflow: hidden;
+        }
+
         #a-some-container {
             margin: 0 auto;
-            height: 500px;
+            height: 300px;
             width: 460px;
             border: 1px solid black;
             padding: 10px;
