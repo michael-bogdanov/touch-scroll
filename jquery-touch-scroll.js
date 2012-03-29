@@ -72,8 +72,8 @@
             if (this.touchStartY) {
                 ev.preventDefault();
                 ev.stopPropagation();
-//                this.innerBox.saveOffset();
-                this.animate(this.speed);
+                this.innerBox.saveOffset();
+//                this.animate(this.speed);
                 this.touchStartY = null;
                 this.innerBox.hideCover();
             }
